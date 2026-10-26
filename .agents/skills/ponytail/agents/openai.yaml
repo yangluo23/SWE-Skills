@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ponytail"
+  short_description: "Small, complete changes with proportionate verification"
+  default_prompt: "Use $ponytail for this task."

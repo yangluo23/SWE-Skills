@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Style"
+  short_description: "Improve code readability, API docs, and useful comments"
+  default_prompt: "Use $code-style to improve code readability, document actual API contracts and explain non-obvious implementation constraints while preserving behavior and reporting the scope reviewed."

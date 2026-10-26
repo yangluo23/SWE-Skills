@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ponytail Review"
+  short_description: "Review changes for bugs, risk, and unnecessary complexity"
+  default_prompt: "Use $ponytail-review for this task."

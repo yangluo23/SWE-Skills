@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ponytail Audit"
+  short_description: "Audit a codebase and rank concrete quality findings"
+  default_prompt: "Use $ponytail-audit for this task."

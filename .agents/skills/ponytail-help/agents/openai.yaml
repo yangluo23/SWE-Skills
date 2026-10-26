@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ponytail Help"
+  short_description: "Explain the local Ponytail skills and invocation options"
+  default_prompt: "Use $ponytail-help for this task."

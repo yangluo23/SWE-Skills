@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ponytail Debt"
+  short_description: "Collect deferred shortcuts into a concrete debt ledger"
+  default_prompt: "Use $ponytail-debt for this task."

@@ -1,0 +1,17 @@
+# Local/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated Python/cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+
+# Local credentials
+.env
+.env.*
+!.env.example

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Software Design"
+  short_description: "Clarify design contracts, invariants, and ownership"
+  default_prompt: "Use $software-design to review module responsibilities, document lifecycle and extension contracts, explain important invariants, and preserve behavior while reporting the scope reviewed."

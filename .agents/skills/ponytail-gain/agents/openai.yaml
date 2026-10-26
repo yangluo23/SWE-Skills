@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ponytail Gain"
+  short_description: "Show published Ponytail benchmark results and limits"
+  default_prompt: "Use $ponytail-gain for this task."
