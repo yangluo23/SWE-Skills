@@ -124,7 +124,6 @@ established Python conventions and PyTorch documentation practices:
 | [PEP 8 — Style Guide for Python Code](https://peps.python.org/pep-0008/) | `code-style` | Layout, naming, imports, comments and consistency with project conventions. |
 | [PEP 257 — Docstring Conventions](https://peps.python.org/pep-0257/) | `code-style` | Concise summaries, docstring structure and documentation of public interfaces. |
 | [PEP 20 — The Zen of Python](https://peps.python.org/pep-0020/) | `software-design` | Readability, explicit behavior, simplicity and understandable structure. |
-| [PyTorch: `torch/autograd/function.py`](https://github.com/pytorch/pytorch/blob/main/torch/autograd/function.py) | Both skills | Explain API contracts, lifecycle constraints, related operations and limitations; use examples and implementation notes where they clarify behavior. |
 
 These references explain the basis for the guidance; project-specific rules
 and actual implementation contracts take precedence. The skills adapt these
