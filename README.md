@@ -116,23 +116,33 @@ local customizations before replacing them.
 
 ## Design references and acknowledgements
 
-`code-style` and `software-design` are locally maintained skills informed by
-established Python conventions and PyTorch documentation practices:
+`code-style` and `software-design` were developed with substantial reference
+to **PyTorch's source code and design philosophy**. They are locally
+maintained interpretations of those practices, adapted to general software
+engineering workflows.
 
-| Reference | Applies to | Principles adopted |
+- **`code-style`** draws on PyTorch's source-level documentation: meaningful
+  API docstrings, usage examples, explanations of constraints, and
+  implementation notes that preserve the reasoning behind non-obvious code.
+- **`software-design`** draws on PyTorch's approach to API design and
+  implementation structure, especially usability, explicit behavior,
+  understandable building blocks and clearly documented extension contracts.
+
+| Primary reference | Applies to | Practices informing these skills |
 |---|---|---|
-| [PEP 8 — Style Guide for Python Code](https://peps.python.org/pep-0008/) | `code-style` | Layout, naming, imports, comments and consistency with project conventions. |
-| [PEP 257 — Docstring Conventions](https://peps.python.org/pep-0257/) | `code-style` | Concise summaries, docstring structure and documentation of public interfaces. |
-| [PEP 20 — The Zen of Python](https://peps.python.org/pep-0020/) | `software-design` | Readability, explicit behavior, simplicity and understandable structure. |
+| [PyTorch source code](https://github.com/pytorch/pytorch) | Both skills | Readable implementations, API contracts, lifecycle documentation, examples and implementation notes. |
+| [PyTorch Design Philosophy](https://docs.pytorch.org/docs/2.14/community/design.html) | `software-design` | Prioritize usable interfaces while maintaining reasonable performance; prefer explicit, debuggable building blocks; work naturally with Python and its ecosystem. |
 
-These references explain the basis for the guidance; project-specific rules
-and actual implementation contracts take precedence. The skills adapt these
-ideas into local review workflows rather than reproduce an upstream style
-guide or require PyTorch's documentation markup.
+Python's [PEP 8](https://peps.python.org/pep-0008/),
+[PEP 257](https://peps.python.org/pep-0257/) and
+[PEP 20](https://peps.python.org/pep-0020/) provide supplementary guidance
+on formatting, docstring conventions, readability and simplicity.
 
-Examples in the skills are independently written and do not copy PyTorch
-implementation code. This collection is not an official Python or PyTorch
-project and is not endorsed or certified by their maintainers.
+The skills adapt these references into local review guidance.
+Project-specific conventions and actual implementation contracts take
+precedence. Their examples are independently written and do not copy PyTorch
+implementation code. This collection is independently maintained and is not
+endorsed or certified by the Python or PyTorch maintainers.
 
 ## Sources and licenses
 
